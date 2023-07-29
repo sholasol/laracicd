@@ -41,4 +41,4 @@ jobs:
 #         server: ftp.hybridsoft.com.ng
 #         username: hybridso
 #         password: Ayoshol@123 
-#         server-dir: /public_html/laracicd/
+#         server-dir: /public_html/laracicd/ 
