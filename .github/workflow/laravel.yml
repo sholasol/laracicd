@@ -19,5 +19,5 @@ jobs:
       with:
         server: ftp.hybridsoft.com.ng
         username: hybridso
-        password: Ayoshol@123 #${{ secrets.ftp_password }}
+        password: Ayoshol@123 
         server-dir: /public_html/laracicd/
