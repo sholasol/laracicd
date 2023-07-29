@@ -11,6 +11,8 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v2.3.2
+      with:
+        node-version:'16.x'
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
@@ -18,4 +20,4 @@ jobs:
         server: ftp.hybridsoft.com.ng
         username: hybridso
         password: Ayoshol@123 #${{ secrets.ftp_password }}
-        server-dir: /public_html/laradev/
+        server-dir: /public_html/laracicd/
