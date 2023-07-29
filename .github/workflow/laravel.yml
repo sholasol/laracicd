@@ -1,4 +1,8 @@
-on: push
+on: 
+  push:
+    branch: 
+      - main
+
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -14,4 +18,4 @@ jobs:
         server: ftp.hybridsoft.com.ng
         username: hybridso
         password: Ayoshol@123 #${{ secrets.ftp_password }}
-        server-dir: /public_html/laradev.hybridsoft.com.ng
+        server-dir: /public_html/laradev/
